@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
+/* Все ниже Глава 1. */
+
 body {
     color: #1F1E1E;
     font-family: 'Open Sans';
@@ -148,3 +150,17 @@ footer {
     background: #BC3324;
     transform: rotate(-180deg);
 }
+
+#glava_1 {
+    position: absolute;
+    top: 150px
+}
+/* Глава 1 заканчивается здесь. */
+
+/* Глава 2. */
+
+h1 {
+    color: red;
+}
+
+/* Глава 2 заканчивается здесь. */
