@@ -3,12 +3,11 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>Нестерова Анастасия</title>
+    <title>Lenni Art</title>
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
 <body>
-    <!-- Создаем навбар и накидаем туда кнопок -->
     <header class="page-header">
         <div class="page-header__container">
             <a href="index.html" class="page-header__logo">
@@ -50,37 +49,49 @@
             </div>
         </div>
     </header>
-    <!-- Закрываем навбар -->
 
-    <!-- Основаная секция -->
-    <section class="main_section">
-        <span id="glava_1">
-            <h1>Я заголовок h1</h1>
-        </span>
-        <span><img class="main_section_logo" src="./img/LENNI.png" alt="LENNI"></span>
-    </section>
-    <!-- Закрываем основную секцию -->
+    <main class="main">
+        <div class="events">
+            <section class="listing events__listing">
+                <h2 class="listing__title section-title">Мероприятия</h2>
+                <div class="listing__events-list">
+                    <article class="event-card listing__event-card">
+                        <a href="#" class="event-card__link">
+                            <picture class="event-card__picture">
+                                <img src="img/Nirvana.png" alt="nirvana" class="event-card__img" />
+                            </picture>
+                            <h4 class="event-card__title">Собираемся и слушаем альбом Nirvana</h4>
+                            <p class="event-card__description">
+                                Это третий альбом группы, выпущенный после смерти Курта Кобейна и первый, содержащий
+                                студийный материал.
+                            </p>
+                            <time datetime="2022-12-07T18:00" class="event-card__time">
+                                07.12.2022 | начало 18.00
+                            </time>
+                        </a>
+                    </article>
 
-    <!-- Футер -->
-    <footer>
-
-        <div class="footer_links_box">
-            <div class="links_line"></div>
-            <ul class="links_list_main">
-                <li><a href="#">Календарь мероприятий</a></li>
-                <li><a href="#">Провести мероприятие</a></li>
-                <li><a href="#">Стать арендатором</a></li>
-                <li><a href="#">Наши проекты</a></li>
-                <li><a href="#">Контакты</a></li>
-            </ul>
+                    <article class="event-card listing__event-card">
+                        <a href="#" class="event-card__link">
+                            <picture class="event-card__picture">
+                                <img src="img/HowStuffWorks.png" alt="nirvana" class="event-card__img" />
+                            </picture>
+                            <h4 class="event-card__title">Есть тема, нужно обсудить с HowStuffWorks</h4>
+                            <p class="event-card__description">
+                                Один из самых популярных подкастов в мире. В нём авторы объясняют, как устроены разные
+                                вещи.
+                            </p>
+                            <time datetime="2022-12-14T18:30" class="event-card__time">
+                                14.12.2022 | начало 18.30
+                            </time>
+                        </a>
+                    </article>
+                </div>
+            </section>
         </div>
+    </main>
 
-        <span class="footer_logo_parent">
-            <span class="footer_logo_img"><img src="./img/tagree.svg" alt="Tagree"></span>
-            <span class="footer_logo_text">Cоздание и продвижение</span>
-        </span>
-    </footer>
-    <!-- Закрываем футер -->
+
 </body>
 
 </html>
